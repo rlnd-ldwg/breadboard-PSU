@@ -1,0 +1,4646 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a04a0dac-b7d2-4990-9be9-38a486213143")
+	(paper "A4")
+	(title_block
+		(title "Configurable Breadboard PSU")
+		(date "2023-11-24")
+		(rev "1.1.0")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Jack-DC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jack-DC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jack-DC_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Jack-DC_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:LM1117DT-1.8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM1117DT-1.8"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-252"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?252*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM1117DT-1.8_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM1117DT-1.8_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:LM7805_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7805_TO220"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM7805_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7805_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:LM7812_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7812_TO220"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM7812_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7812_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:LM7912_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7912_TO220"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "hhttps://www.onsemi.com/pub/Collateral/MC7900-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Negative 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Negative"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM7912_TO220_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7912_TO220_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 50.8 47.498)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08977c1e-463d-4b4d-bfc8-806a1a62e0c7")
+	)
+	(junction
+		(at 120.777 39.878)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a8e3b3d-73be-4fc9-89d3-3e11c44dac4c")
+	)
+	(junction
+		(at 58.166 79.248)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b028921-b426-4998-a893-5e4a61c9d0d5")
+	)
+	(junction
+		(at 113.157 79.248)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2106b427-617f-414f-bbd9-e8a40a6f2b27")
+	)
+	(junction
+		(at 113.157 37.338)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26218f96-c8f1-4f61-a650-31ce27195aff")
+	)
+	(junction
+		(at 98.171 50.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2886a20f-ce2b-47fa-a00f-265919bf2481")
+	)
+	(junction
+		(at 117.983 59.436)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a4f7742-b27f-4eb0-8e8d-7e3c35d9ab27")
+	)
+	(junction
+		(at 117.983 50.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e79699c-a144-44d5-a0bc-41403b654954")
+	)
+	(junction
+		(at 117.983 32.258)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35d8c675-d960-467f-b7d6-d9de17e910b0")
+	)
+	(junction
+		(at 113.157 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "365fbbc5-b249-42b0-8811-24fae5a241a2")
+	)
+	(junction
+		(at 72.263 79.248)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37a6dfd9-8307-4e25-ba8e-ae2649a9c4f6")
+	)
+	(junction
+		(at 58.166 69.977)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b101123-bede-4651-a918-16aa153e7f36")
+	)
+	(junction
+		(at 63.881 37.338)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f2d3b6-9eb0-4583-ad12-95cbe766270d")
+	)
+	(junction
+		(at 50.8 79.248)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49e0b179-99a3-43d6-b231-578e0ec8fb9e")
+	)
+	(junction
+		(at 113.157 50.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e24e1fb-becd-4a8e-9a8e-27250130ec9b")
+	)
+	(junction
+		(at 117.983 37.338)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50792aa1-cd19-4afd-95b0-8d1932e15aee")
+	)
+	(junction
+		(at 54.737 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d42ed8-e2b5-4ec7-96b3-b13c37786188")
+	)
+	(junction
+		(at 107.95 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c37c2b2-831d-4119-8ccf-7634f276ef9a")
+	)
+	(junction
+		(at 107.823 50.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72101812-957b-4853-a506-b797a83a5d76")
+	)
+	(junction
+		(at 85.217 50.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74939730-5681-4d99-9be1-8db7454652a9")
+	)
+	(junction
+		(at 85.217 79.248)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7520bc20-5e47-4a62-8bb5-66b665581e83")
+	)
+	(junction
+		(at 61.341 50.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "774b01bf-d895-45c9-ba5d-b4099b500ec7")
+	)
+	(junction
+		(at 98.171 37.338)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fd1f491-1835-4821-8927-40f94147753c")
+	)
+	(junction
+		(at 117.983 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdf99d20-02e1-4790-86ba-bca583386d7b")
+	)
+	(junction
+		(at 72.263 50.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c01b1534-a83f-41e5-a61d-13a33677b93d")
+	)
+	(junction
+		(at 72.263 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3cd73a-7576-478a-a456-3521439565a5")
+	)
+	(junction
+		(at 98.171 79.248)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf552cbd-da88-4d2f-be9c-53d1e3ac5792")
+	)
+	(junction
+		(at 67.564 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7150a65-d987-4e5c-abcb-c835852ee17c")
+	)
+	(junction
+		(at 117.983 69.977)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d876d723-5346-4d74-bf93-6352d3a7f7fc")
+	)
+	(junction
+		(at 72.263 37.338)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8f7a592-12d7-4e3c-8cbc-870913a97926")
+	)
+	(junction
+		(at 98.171 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e695d7eb-23a9-49dd-bfd5-82c20d8246e3")
+	)
+	(junction
+		(at 117.983 79.248)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edfb1e67-82b4-4281-8e23-7125c2da1125")
+	)
+	(junction
+		(at 54.737 50.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fedc0994-87c9-4278-8334-2a178fdc754e")
+	)
+	(wire
+		(pts
+			(xy 113.157 92.71) (xy 122.555 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024e1722-1418-4b0d-865d-31c501bd1a9f")
+	)
+	(wire
+		(pts
+			(xy 113.157 47.498) (xy 113.157 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c3208d-2408-4ad3-b64f-c28880c455c9")
+	)
+	(wire
+		(pts
+			(xy 49.53 37.338) (xy 63.881 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0478279d-e50d-458a-b0ce-5e063b93eaee")
+	)
+	(wire
+		(pts
+			(xy 98.171 37.338) (xy 98.171 39.878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051ac925-f3f2-41b8-bbe9-7af4f7c8f9db")
+	)
+	(wire
+		(pts
+			(xy 107.823 34.925) (xy 107.823 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a376d8-5b6b-4a67-bbb2-97c831fadfa7")
+	)
+	(wire
+		(pts
+			(xy 50.8 47.498) (xy 63.881 47.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e52314d-7083-48f4-b36b-484138044456")
+	)
+	(wire
+		(pts
+			(xy 100.203 27.305) (xy 72.263 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7eadad-cf08-40f7-921c-a28a5b6b57a0")
+	)
+	(wire
+		(pts
+			(xy 61.341 42.418) (xy 61.341 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1076207a-1714-402d-8c2f-cda4bd8e6994")
+	)
+	(wire
+		(pts
+			(xy 98.171 47.498) (xy 98.171 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119c20d2-f739-4d9f-b115-3793597456ec")
+	)
+	(wire
+		(pts
+			(xy 72.263 79.248) (xy 85.217 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129ea7c2-307b-44ea-80a4-bf971f9b933b")
+	)
+	(wire
+		(pts
+			(xy 54.737 57.658) (xy 54.737 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ee63c2-3c9b-4d39-9a69-dce23fb3db28")
+	)
+	(wire
+		(pts
+			(xy 122.682 97.79) (xy 113.157 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1794b2e7-daf1-4186-8105-511b579f0536")
+	)
+	(wire
+		(pts
+			(xy 100.33 59.436) (xy 58.166 59.436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e2833b-6004-4fde-ac9b-5056699bd7e1")
+	)
+	(wire
+		(pts
+			(xy 98.171 50.038) (xy 85.217 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3b2e81-ec22-40af-b4c9-3bca9d5bd7d0")
+	)
+	(wire
+		(pts
+			(xy 92.837 37.338) (xy 98.171 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9d99af-fe2d-4d53-9a2b-85f3f4a89c34")
+	)
+	(wire
+		(pts
+			(xy 113.157 79.248) (xy 113.157 82.296)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21092aad-65cc-42a4-8ff6-1ee14e68b0f2")
+	)
+	(wire
+		(pts
+			(xy 117.983 69.977) (xy 117.983 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235dfd85-9911-4d80-b552-ecf5a51aab5b")
+	)
+	(wire
+		(pts
+			(xy 120.777 39.878) (xy 122.555 39.878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2727fb57-6151-41d9-8d93-9e07f5a96b56")
+	)
+	(wire
+		(pts
+			(xy 85.217 44.958) (xy 85.217 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4be960-2dc4-4a40-ab74-5badae7e0678")
+	)
+	(wire
+		(pts
+			(xy 54.737 50.038) (xy 46.99 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307aac5a-e8e3-4cb1-b0b8-8371066cc17b")
+	)
+	(wire
+		(pts
+			(xy 58.166 69.977) (xy 59.944 69.977)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32931653-f5ea-4945-bf9f-e168075665aa")
+	)
+	(wire
+		(pts
+			(xy 63.881 37.338) (xy 72.263 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35555a42-7749-41f1-bc51-2b02f15dd3f8")
+	)
+	(wire
+		(pts
+			(xy 98.171 79.248) (xy 98.171 82.296)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3590e628-e5f3-4130-8670-d732d379a30f")
+	)
+	(wire
+		(pts
+			(xy 63.881 47.498) (xy 63.881 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36bec523-ef4f-4039-ac6b-b53f6f853882")
+	)
+	(wire
+		(pts
+			(xy 115.443 27.305) (xy 117.983 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44859b84-0765-42c8-9839-b0db48b47a92")
+	)
+	(wire
+		(pts
+			(xy 117.983 39.878) (xy 120.777 39.878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44929526-312e-461b-b46e-a3edcadbef81")
+	)
+	(wire
+		(pts
+			(xy 67.564 77.597) (xy 67.564 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463928a4-0217-40bc-abd7-d824ae5a9677")
+	)
+	(wire
+		(pts
+			(xy 113.157 37.338) (xy 117.983 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47daae35-c5e8-40fc-9c7c-ba27ce6f71da")
+	)
+	(wire
+		(pts
+			(xy 72.263 47.498) (xy 72.263 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493746ec-6ffc-4d4f-8de8-378e82da04e8")
+	)
+	(wire
+		(pts
+			(xy 117.983 27.305) (xy 117.983 32.258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53749d60-822c-48f7-bf26-c1165ed68c90")
+	)
+	(wire
+		(pts
+			(xy 61.341 50.038) (xy 72.263 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576ccf7f-9220-4a54-8043-2a1604523ef0")
+	)
+	(wire
+		(pts
+			(xy 98.171 79.248) (xy 113.157 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ced72b0-cea8-4805-8c93-cd358ea2f4df")
+	)
+	(wire
+		(pts
+			(xy 72.263 92.71) (xy 77.597 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de5de42-0d3a-49c0-8cb6-b366099d39e8")
+	)
+	(wire
+		(pts
+			(xy 58.166 59.436) (xy 58.166 69.977)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0e52b0-c073-449c-bed3-27e7d86fe53f")
+	)
+	(wire
+		(pts
+			(xy 107.95 67.056) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62492127-7a3c-419e-87aa-423bf2bba965")
+	)
+	(wire
+		(pts
+			(xy 72.263 37.338) (xy 72.263 39.878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62eec3b0-fd25-4593-9077-89800695a5cc")
+	)
+	(wire
+		(pts
+			(xy 115.57 59.436) (xy 117.983 59.436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b24e00-c56d-4f4c-bab0-a440f264de81")
+	)
+	(wire
+		(pts
+			(xy 117.983 50.8) (xy 117.983 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a601d7-dfbb-48eb-a143-d29f52919f49")
+	)
+	(wire
+		(pts
+			(xy 58.166 79.248) (xy 72.263 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6788a81d-07ef-40d7-950f-36dfaa342230")
+	)
+	(wire
+		(pts
+			(xy 50.8 79.248) (xy 58.166 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf21157-a0da-4c11-be0a-62d7be4c2dd7")
+	)
+	(wire
+		(pts
+			(xy 122.682 95.25) (xy 117.983 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b68fbd-20ec-4d5a-9ea2-a759725031ee")
+	)
+	(wire
+		(pts
+			(xy 95.504 79.248) (xy 98.171 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d466c5-650a-48d9-acd2-50ba98b49593")
+	)
+	(wire
+		(pts
+			(xy 113.157 89.916) (xy 113.157 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2a1809-b99c-47f7-99cb-3a63949f6aae")
+	)
+	(wire
+		(pts
+			(xy 50.8 47.498) (xy 50.8 71.628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae6a89b-3d6a-4e3b-9dc4-6848e73e2acf")
+	)
+	(wire
+		(pts
+			(xy 117.983 58.42) (xy 117.983 59.436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa25bbf-a2f1-44f4-ad9b-b40f345ef0ee")
+	)
+	(wire
+		(pts
+			(xy 92.837 92.71) (xy 98.171 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81328986-99e8-4c9a-8bd9-a60b76d65df0")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 113.157 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849974cf-d16d-4d79-b415-22e8d9319fa9")
+	)
+	(wire
+		(pts
+			(xy 72.263 27.305) (xy 72.263 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85cae99f-7ba9-473f-a61a-cda57e236c8a")
+	)
+	(wire
+		(pts
+			(xy 117.983 59.436) (xy 117.983 69.977)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a190e3c-739b-4b0b-9ec3-8a3cdcca753f")
+	)
+	(wire
+		(pts
+			(xy 113.157 37.338) (xy 113.157 39.878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9ff2d6-7c37-4535-95de-86c1bf95f112")
+	)
+	(wire
+		(pts
+			(xy 61.341 42.418) (xy 49.53 42.418)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be53dec-364e-41ee-ba85-42cd9b30383a")
+	)
+	(wire
+		(pts
+			(xy 107.823 50.038) (xy 113.157 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ab3877-edd7-4a74-94f7-decd42c5d7be")
+	)
+	(wire
+		(pts
+			(xy 87.884 79.248) (xy 85.217 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fbfb90-5dfe-4654-8cf2-e2d139771348")
+	)
+	(wire
+		(pts
+			(xy 113.157 79.248) (xy 117.983 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988bd3da-1b30-41e4-83bb-e246b7e1ff55")
+	)
+	(wire
+		(pts
+			(xy 85.217 79.248) (xy 85.217 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99dffee9-f802-4a3a-9df1-2dfa5c80854e")
+	)
+	(wire
+		(pts
+			(xy 113.157 97.79) (xy 113.157 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5c473b-29c6-4178-ba68-5d9ec5e84aad")
+	)
+	(wire
+		(pts
+			(xy 117.983 39.878) (xy 117.983 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c27bb04-2720-4f2f-9da9-87e418a69bcd")
+	)
+	(wire
+		(pts
+			(xy 67.564 92.71) (xy 72.263 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a218d1c5-d805-4650-99a0-2101e63b34b7")
+	)
+	(wire
+		(pts
+			(xy 117.983 37.338) (xy 122.555 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ad3b2e-4b7a-4a6c-9e5c-199890526150")
+	)
+	(wire
+		(pts
+			(xy 120.777 29.718) (xy 120.777 39.878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86334bb-5f20-4633-9746-8649294ea787")
+	)
+	(wire
+		(pts
+			(xy 72.263 89.916) (xy 72.263 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a883af34-85f8-4a6b-92c5-4907c819d590")
+	)
+	(wire
+		(pts
+			(xy 113.157 50.038) (xy 117.983 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cfe936-ab7a-4352-bcef-64e7c1af7216")
+	)
+	(wire
+		(pts
+			(xy 85.217 50.038) (xy 72.263 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4f9337-0ff3-4e27-9be2-8886b497649d")
+	)
+	(wire
+		(pts
+			(xy 117.983 95.25) (xy 117.983 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba50ad73-f19b-448c-a1a2-9dbaf9afbd78")
+	)
+	(wire
+		(pts
+			(xy 61.341 50.038) (xy 54.737 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02cfe69-2ab0-4154-a708-c75d30e6d017")
+	)
+	(wire
+		(pts
+			(xy 46.99 81.788) (xy 46.99 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c5f0a1-8e87-48c7-8fc0-cd6311025945")
+	)
+	(wire
+		(pts
+			(xy 122.555 32.258) (xy 117.983 32.258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d08f63-030e-4e9a-932a-ef50ce070526")
+	)
+	(wire
+		(pts
+			(xy 98.171 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63a031f-40c1-41d4-ae7a-16d7658e98af")
+	)
+	(wire
+		(pts
+			(xy 72.263 79.248) (xy 72.263 82.296)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68f53ab-3961-430e-8c3a-dfab4c0d08c9")
+	)
+	(wire
+		(pts
+			(xy 122.555 29.718) (xy 120.777 29.718)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c74bb415-ad1b-456b-9873-18ebd52909af")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 54.737 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf70bb5-9df0-4fa8-ae37-1cb8154d31c4")
+	)
+	(wire
+		(pts
+			(xy 58.166 69.977) (xy 58.166 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b6777e-af63-45f8-a925-1c005a9e886f")
+	)
+	(wire
+		(pts
+			(xy 117.983 90.17) (xy 122.555 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03fc21e-7e8c-4719-94e3-36b799785a2b")
+	)
+	(wire
+		(pts
+			(xy 98.171 37.338) (xy 113.157 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5323e26-3101-4110-8182-67d744f04f6e")
+	)
+	(wire
+		(pts
+			(xy 117.983 79.248) (xy 117.983 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64f8bb2-b692-4761-9598-403e34b2c67d")
+	)
+	(wire
+		(pts
+			(xy 75.184 69.977) (xy 117.983 69.977)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6dfc23b-b47b-476b-9ebc-22638b8b5844")
+	)
+	(wire
+		(pts
+			(xy 98.171 50.038) (xy 107.823 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72ae4a9-308a-4882-a9d1-93df31eaba5a")
+	)
+	(wire
+		(pts
+			(xy 46.99 79.248) (xy 50.8 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5854c1-e66a-4c48-98f4-582d2dd6fe0e")
+	)
+	(wire
+		(pts
+			(xy 46.99 47.498) (xy 50.8 47.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0b46be-46f8-486e-ba9f-1cd875c48b9b")
+	)
+	(wire
+		(pts
+			(xy 72.263 37.338) (xy 77.597 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69177f1-b62a-43c6-8650-097e9854543b")
+	)
+	(wire
+		(pts
+			(xy 98.171 89.916) (xy 98.171 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e9a64c-e523-44fe-a679-30afc59e49b9")
+	)
+	(wire
+		(pts
+			(xy 117.983 32.258) (xy 117.983 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f839b9d5-1033-414f-83fa-c3c364f5a1a0")
+	)
+	(wire
+		(pts
+			(xy 54.737 92.71) (xy 67.564 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb3a383-0896-40dc-a1ae-8cfaa31fd15c")
+	)
+	(text "If U6 or U8 is used cut JP3\nand JP6 and connect JP4 & JP5"
+		(exclude_from_sim no)
+		(at 69.469 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c4ec85d-65e7-49c5-81df-8a879a87d53a")
+	)
+	(label "Vout1"
+		(at 122.555 37.338 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a695b39-009d-41a2-8120-819b167d98e1")
+	)
+	(label "Gnd1"
+		(at 49.53 42.418 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31e7504a-cfd7-497b-9c80-ae06004f5e78")
+	)
+	(label "Gnd2"
+		(at 46.99 81.788 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ccc59e6-0c0f-40d0-ba7c-3a2d79acfd03")
+	)
+	(label "Vcc2"
+		(at 46.99 79.248 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c2f76ed-cc91-41d1-99aa-c44e57330f58")
+	)
+	(label "Vcc1"
+		(at 49.53 37.338 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b4a77dd-7193-479b-8d99-157e9b306951")
+	)
+	(label "Gnd"
+		(at 117.983 69.977 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b17aa8af-c195-41ec-aa9f-2bfff03f3139")
+	)
+	(label "Vout2"
+		(at 122.555 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b59b76c3-5a97-4c46-9ebd-eb1b4a978590")
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM7805_TO220")
+		(at 85.217 37.338 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "025d10d4-e6d4-483b-ad6c-65365effbbb1")
+		(property "Reference" "U2"
+			(at 81.915 40.513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7805_TO220"
+			(at 85.217 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 85.217 31.623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(at 85.217 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.217 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a453336a-87e7-488d-9132-1db57b6a1d8d")
+		)
+		(pin "1"
+			(uuid "309a4cc0-ac2f-4ed4-a59f-77db70ea1fb0")
+		)
+		(pin "3"
+			(uuid "0a8fb56a-7994-4d2d-ac91-745e7d7a525c")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 41.91 39.878 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "073394b6-9012-4c05-8284-e4987bb985cb")
+		(property "Reference" "J5"
+			(at 41.91 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V"
+			(at 41.91 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 43.18 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a89c847-b7c3-4919-9ad9-f042d4d90c92")
+		)
+		(pin "2"
+			(uuid "53a4187a-49e4-4f11-a40a-c6cbe4b4f55e")
+		)
+		(instances
+			(project "Atmega-dev"
+				(path "/2d96c0e7-7443-4a4f-b4e7-802448d6e395"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 72.263 43.688 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c8f24c5-e36f-4963-9f97-193639fd1e19")
+		(property "Reference" "C1"
+			(at 75.565 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330n"
+			(at 75.565 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+			(at 73.2282 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.263 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.263 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c524c2cb-48df-4fdd-a899-28ee29bc19d7")
+		)
+		(pin "2"
+			(uuid "5264167c-12a1-4e77-a71b-569def49f375")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 72.263 86.106 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a542fc2-d539-4cfb-a7ae-24387a8b7921")
+		(property "Reference" "C2"
+			(at 75.565 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330n"
+			(at 75.565 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+			(at 73.2282 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.263 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.263 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fb1060a-0439-4c9b-9bd0-fcb8d45ea6c2")
+		)
+		(pin "2"
+			(uuid "c5d09bde-ebce-44c7-946d-b71904980890")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 127.635 32.258 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f7d51a5-de83-400e-af89-953f910f0cf6")
+		(property "Reference" "J4"
+			(at 128.651 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Top bar"
+			(at 128.651 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127.635 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.635 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "465389dd-e0da-4453-a936-5a2cd60df4d5")
+		)
+		(pin "1"
+			(uuid "9d488cb4-9c62-4762-95ec-2edcdc773362")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 98.171 43.688 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "508d3c0f-ce8c-43ad-b9e2-b183f925cea9")
+		(property "Reference" "C3"
+			(at 102.235 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 102.235 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+			(at 99.1362 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.171 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 98.171 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54d040f7-8823-403d-8468-b50a11aa141f")
+		)
+		(pin "2"
+			(uuid "f2f50cff-0c6e-4ce8-8352-ba8b33e87893")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 41.91 47.498 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6304bb58-2fab-406b-b8ee-d88dfcf0bd7b")
+		(property "Reference" "J4"
+			(at 37.592 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V"
+			(at 37.846 47.117 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 41.91 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef35b495-e334-4def-8bb5-69496e959e1b")
+		)
+		(pin "2"
+			(uuid "b3bb7654-a838-4911-9e14-913c881aeddc")
+		)
+		(instances
+			(project "Atmega-dev"
+				(path "/2d96c0e7-7443-4a4f-b4e7-802448d6e395"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 127.762 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a0e59b4-2769-4a59-991d-40262199c58b")
+		(property "Reference" "J7"
+			(at 128.778 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Bottom bar"
+			(at 128.778 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127.762 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.762 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.762 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "518ca066-eff4-42c1-9f67-75ab23805d6d")
+		)
+		(pin "1"
+			(uuid "f831f8cd-d563-4156-a17c-e5f1070b84d8")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117DT-1.8")
+		(at 107.823 27.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c7568d7-3ee3-4278-9faa-3b755422541d")
+		(property "Reference" "U4"
+			(at 104.648 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117DT-5.0"
+			(at 107.823 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 107.823 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 107.823 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.823 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ee0c772-591c-4845-bc89-5cd9413443c8")
+		)
+		(pin "1"
+			(uuid "62d64e94-ed04-4da4-b879-33c7c072c4c5")
+		)
+		(pin "3"
+			(uuid "0cbc7072-51c9-45a1-9019-3bd7bb341f2c")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM7912_TO220")
+		(at 85.217 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d8c3064-3f43-4b97-afe3-ae1c4dcd3796")
+		(property "Reference" "U3"
+			(at 85.217 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7912_TO220"
+			(at 85.217 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 85.217 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "hhttps://www.onsemi.com/pub/Collateral/MC7900-D.PDF"
+			(at 85.217 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.217 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bf18efa-dffc-4532-a8e4-bdff6ad56971")
+		)
+		(pin "1"
+			(uuid "f07f9277-6d8d-449b-b13f-7973468ff079")
+		)
+		(pin "3"
+			(uuid "a04684fd-f399-4b2d-9823-726235135372")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 117.983 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a47c9ed-9c68-4163-ba52-d3ffcd74b5aa")
+		(property "Reference" "JP4"
+			(at 120.015 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 120.142 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 117.983 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.983 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.983 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "968fee39-b60c-4e3b-a5c1-858c41977f4e")
+		)
+		(pin "2"
+			(uuid "325c1df1-af8f-47b0-bfaf-1ba61f4497d8")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 32.639 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98309df4-639e-499f-8bd8-f6dcfef98a3c")
+		(property "Reference" "H2"
+			(at 35.306 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 35.306 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 32.639 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 32.639 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 32.639 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 113.157 86.106 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998fe9a7-b2df-47fb-8a62-120f4e492553")
+		(property "Reference" "C6"
+			(at 116.332 83.947 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 116.332 86.487 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 114.1222 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.157 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.157 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1c7d2bb-0845-45e6-bc6a-a43d0497eaea")
+		)
+		(pin "2"
+			(uuid "6d3a2f29-c12c-49dc-a998-1d52c566c046")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 32.639 27.432 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f0eacd-0c7b-4c36-9f2c-38b082e2fe69")
+		(property "Reference" "H1"
+			(at 35.306 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 35.306 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 32.639 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 32.639 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 32.639 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 50.8 75.438 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa839c59-7dc8-4cd1-92c1-0459353cea36")
+		(property "Reference" "JP1"
+			(at 52.832 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 52.832 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 50.8 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0616bcf-2376-4b29-9cd0-2ef032189b17")
+		)
+		(pin "2"
+			(uuid "f1b0e931-6f47-4301-9152-62486814484a")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM7812_TO220")
+		(at 67.564 69.977 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b71903cb-c854-4ea2-b688-9e217b32cc1f")
+		(property "Reference" "U1"
+			(at 67.564 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7812_TO220"
+			(at 67.564 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 67.564 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(at 67.564 71.247 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.564 69.977 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dd4465f-3d9d-4296-9197-1c1927ec3d2e")
+		)
+		(pin "1"
+			(uuid "9f366f3d-b885-45d5-86dd-455c956a7704")
+		)
+		(pin "3"
+			(uuid "f327d02f-e40e-4281-81b1-ace090021c66")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 127.635 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bab11546-a864-4959-8cd3-c3dd18af85d2")
+		(property "Reference" "J6"
+			(at 128.651 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Bottom bar"
+			(at 128.651 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127.635 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.635 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1dd9e82b-68ec-4817-a3d5-04c1d4fea702")
+		)
+		(pin "1"
+			(uuid "31ca3fdb-c767-4e97-ad8c-c19737952324")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 41.91 79.248 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf6fcaba-7840-4d4a-92f0-7e4946dc3c47")
+		(property "Reference" "J4"
+			(at 41.91 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V"
+			(at 41.91 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 41.91 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae71407a-e7a8-43af-8f51-44a42396278c")
+		)
+		(pin "2"
+			(uuid "ca761ff8-d126-46b8-99d3-6a5d041d2d17")
+		)
+		(instances
+			(project "Atmega-dev"
+				(path "/2d96c0e7-7443-4a4f-b4e7-802448d6e395"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 98.171 86.106 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cce17fc6-5657-4cfa-919c-d48b6d5b2e31")
+		(property "Reference" "C4"
+			(at 102.235 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 102.235 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+			(at 99.1362 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.171 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 98.171 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65095cca-274e-4ce4-af80-e769346074d7")
+		)
+		(pin "2"
+			(uuid "f6a070aa-b892-40ab-85e5-d3658dd78336")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117DT-1.8")
+		(at 107.95 59.436 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdfb42a8-2214-4908-9715-46b4645f07fd")
+		(property "Reference" "U5"
+			(at 107.95 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117DT-5.0"
+			(at 107.95 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 107.95 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 107.95 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adcc9f96-751f-4ced-9678-1b4b7d04c22b")
+		)
+		(pin "1"
+			(uuid "abe231a8-08c0-4fca-ad71-054fa2bc161a")
+		)
+		(pin "3"
+			(uuid "0b29138d-12e0-4495-96be-2c7fcde9f34e")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 91.694 79.248 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfc941ec-c802-4713-be29-464116fd7a58")
+		(property "Reference" "JP3"
+			(at 90.424 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 102.87 77.089 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 91.694 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.694 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.694 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39e3f001-344f-4eaf-8f11-e53af5bc0e67")
+		)
+		(pin "2"
+			(uuid "e6ee3d9d-141a-4c88-9e66-9d4f09d0d8f6")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 127.635 37.338 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cff5b6d8-714a-422c-a293-14709af66a3a")
+		(property "Reference" "J5"
+			(at 128.651 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Top bar"
+			(at 128.651 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127.635 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.635 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9b68d11-561a-4a48-ae2e-955369019c88")
+		)
+		(pin "1"
+			(uuid "c694f993-9197-4c61-9eae-cdc17118433f")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 54.737 53.848 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dae39864-f251-467e-b0e9-92b711e79860")
+		(property "Reference" "JP2"
+			(at 56.769 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 42.164 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 54.737 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.737 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.737 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02f9bc93-8d91-45a8-b980-40e0b0de2b0e")
+		)
+		(pin "2"
+			(uuid "003239cd-7f85-4adc-b9be-42da6044c813")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 113.157 43.688 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6231868-7701-4c26-a7f8-5478ff7c73db")
+		(property "Reference" "C5"
+			(at 116.332 41.529 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 116.332 44.069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 114.1222 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.157 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.157 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8d91134-a517-4ef8-bc00-664a5e7304b5")
+		)
+		(pin "2"
+			(uuid "ac4bd735-ae9d-4f3d-bcae-88fd881a866c")
+		)
+		(instances
+			(project "Breadboard-PSU"
+				(path "/a04a0dac-b7d2-4990-9be9-38a486213143"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
